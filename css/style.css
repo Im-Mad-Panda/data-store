@@ -539,6 +539,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.slider-pagination{
+  display: flex;
+  align-items: center;
+}
 /*=====================SWIPER END======================*/
 .hr {
 	border-bottom: 1px solid  #9C69E2;
