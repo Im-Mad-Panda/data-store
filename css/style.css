@@ -630,6 +630,9 @@ body {
 .footer-link:hover {
   text-decoration: underline;
 }
+.footer-nav-links{
+  display: contents;
+}
 .footer-number-link {
   width: 265px;
   font-family: "avenir";
@@ -646,24 +649,26 @@ body {
   font-size: 16px;
   line-height: 250%;
 }
-.footer-navbar a {
-  margin-bottom: 5px;
-}
 .footer-navbar a:hover {
   text-shadow: 0.2px 0.2px 0px, -0.2px -0.2px 0px;
 }
-.footer-social a {
+.footer-navbar li {
+  margin-bottom: 5px;
+}
+.footer-social { 
+  height: 35px;
+  display: flex;
+  align-items: center;
   text-shadow: 0.2px 0.2px 0px, -0.2px -0.2px 0px;
   margin-bottom: 25px;
 }
-.footer-social a:hover {
-  text-decoration: underline;
-}
 .social-icons {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 230px;
 }
-.social-icons a {
-  padding: 5px;
+.social-icons li:nth-child(n + 2) {
+  margin-left: 15px;
 }
 .icon > img {
   width: auto;
