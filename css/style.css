@@ -705,20 +705,36 @@ body {
   object-fit: cover;
 }
 .icon:hover {
-  height: 100%;
   border-radius: 50%;
   background-color: rgb(83, 83, 83);
 }
 .icon:nth-child(n + 2) {
   margin-left: 10px;
 }
+.footer-company{
+  display: flex;
+  justify-content: space-between;
+}
+.company{
+  font-family: "avenir";
+  font-weight: 400;
+  font-size: 12px;
+line-height: 180%;
+letter-spacing: 0.01em;
+color: #212353;
+}
+.footer-tel-number:hover{
+  text-decoration: underline;
+}
 .chat-icon img {
   width: auto;
   height: 100%;
   object-fit: cover;
 }
-.footer-nav-chat {
-  display: flex;
-  justify-content: flex-end;
+.chat-icon:hover{
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgb(215, 130, 255);
 }
+
 /*=====================FOOTER END======================*/
