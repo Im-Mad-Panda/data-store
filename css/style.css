@@ -549,33 +549,33 @@ body {
   opacity: 0.2;
 }
 /*=====================CTI START======================*/
-.cti {
+.cta {
   display: flex;
   padding-top: 100px;
   padding-bottom: 150px;
 }
-.cti-group {
+.cta-group {
   display: flex;
   justify-content: space-between;
 }
-.cti-title {
+.cta-title {
   font-weight: 700;
   color: #212353;
   font-size: 40px;
   line-height: 130%;
   margin-bottom: 20px;
 }
-.cti-subtitle {
+.cta-subtitle {
   font-weight: 500;
   color: #4b5d68;
   font-size: 18px;
   line-height: 160%;
 }
-.cti-button-group {
+.cta-button-group {
   display: flex;
   align-items: center;
 }
-.cti-btn {
+.cta-btn {
   margin-right: 30px;
   color: #ffffff;
   padding: 16px 37px;
