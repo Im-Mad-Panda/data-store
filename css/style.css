@@ -283,7 +283,8 @@ body {
   font-weight: 800;
 }
 .button.hero-btn:hover {
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  color: #212353;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
 /*=====================HERO STYLES END======================*/
 /*=====================BLOG STYLES START======================*/
@@ -430,7 +431,7 @@ body {
   margin-top: auto;
 }
 /*=====================SERVICES STYLES END======================*/
-/*=====================SWIPER START======================*/
+/*=====================testimonials START======================*/
 .testimonials {
   padding-bottom: 150px;
   display: flex;
@@ -505,6 +506,9 @@ body {
   line-height: 160%;
   color: #9c69e2;
 }
+.testimonials-link:hover{
+  text-decoration: underline;
+}
 .testimonials-text {
   font-size: 18px;
   line-height: 180%;
@@ -561,7 +565,7 @@ body {
   display: flex;
   align-items: center;
 }
-/*=====================SWIPER END======================*/
+/*=====================testimonials END======================*/
 .hr {
 	border-bottom: 1px solid  #9C69E2;
   opacity: 0.2;
@@ -600,6 +604,10 @@ body {
   background: #f063b8;
   border-radius: 50px;
   font-weight: 800;
+}
+.cta-btn:hover {
+  color: #212353;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
 /*=====================CTA END======================*/
 /*=====================FOOTER START======================*/
@@ -736,5 +744,58 @@ color: #212353;
   border-radius: 50%;
   background-color: rgb(215, 130, 255);
 }
-
 /*=====================FOOTER END======================*/
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .hero-img {
+    width: 850px;
+    right: 160px;
+    bottom: 10px;
+}
+}
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 960px;
+  }
+  .hero-img {
+    width: 850px;
+    right: 166px;
+    bottom: 10px;
+}
+  
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 720px;
+  }
+  .hero-img {
+    width: 600px;
+    right: 3px;
+    bottom: 83px;
+}
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .container {
+    max-width: 540px;
+  }
+}
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+/* // XX-Small devices (portrait phones(iPhone5/5s/SE), equals to 320px) */
+@media (max-width: 320px) {
+  
+}
