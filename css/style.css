@@ -746,7 +746,6 @@ body {
   object-fit: cover;
 }
 .chat-icon:hover {
-  height: 100%;
   border-radius: 50%;
   background-color: rgb(215, 130, 255);
 }
@@ -967,6 +966,88 @@ body {
     max-width: 100%;
     padding: 0 15px;
   }
+  .nav {
+    font-size: 15px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: initial;
+}
+.navbar, .nav {
+  flex-direction: column;
+}
+.logo {
+  margin-right: 0;
+}
+.header {
+    padding: 20px 0;
+}
+.button.header-btn {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.hero {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.hero-title {
+    width: 180px;
+    font-size: 25px;
+}
+.hero-img {
+    width: 290px;
+    bottom: 60px;
+}
+.hero-section{
+  padding-bottom: 0;
+}
+.button.hero-btn {
+    margin-top: 140px;
+}
+.hero {
+    padding-top: 20px;
+}
+.blog-media {
+    flex-direction: column;
+}
+.blog-img {
+    width: 100%;
+}
+.services-content {
+  padding: 50px 0 50px 0;
+}
+.services-title {
+  font-size: 30px;
+margin-bottom: 25px;
+}
+.services-section {
+  padding-bottom: 50px;
+}
+.cta {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.cta-group {
+  flex-direction: column;
+}
+.cta-button-group {
+  flex-direction: column;
+  width: 180px;
+}
+.cta-subtitle {
+  margin-bottom: 20px;
+}
+.cta-button-group {
+  display: flex;
+  align-items: baseline;
+  width: 280px;
+}
+.footer-number {
+  margin-bottom: 30px;
+}
+.cta-btn {
+  padding: 16px 37px;
+  font-size: 18px;
+}
 }
 /* // XX-Small devices (portrait phones(iPhone5/5s/SE), equals to 320px) */
 @media (max-width: 320px) {
