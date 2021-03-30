@@ -1,4 +1,4 @@
-const tetSlider = new Swiper('.test-slider', {
+const testimonialsSlider = new Swiper('.testimonials-slider', {
   slidesPerView: 'auto',
   centeredSlides: true,
   spaceBetween: 20,
