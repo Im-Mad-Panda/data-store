@@ -1,7 +1,13 @@
 const testimonialsSlider = new Swiper('.testimonials-slider', {
-  slidesPerView: 'auto',
-  centeredSlides: true,
-  spaceBetween: 20,
+
+  breakpoints: {
+    768:{
+      slidesPerView: 'auto',
+      centeredSlides: true,
+      spaceBetween: 20,
+    }
+  },
+
   navigation: {
     nextEl: '.arrow-left',
     prevEl: '.arrow-right',
