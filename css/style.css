@@ -799,44 +799,56 @@ body {
 @media (max-width: 991.98px) {
   .logo {
     margin-right: 50px;
-}
-.hero-content {
+  }
+  .hero-content {
     width: 450px;
-}
-.hero-title {
+  }
+  .hero-title {
     font-size: 60px;
-}
-.hero-img {
+  }
+  .hero-img {
     width: 407px;
     bottom: 85px;
-}
-.blog-img {
+  }
+  .blog-img {
     width: 40%;
-}
-.blog-content {
+  }
+  .blog-content {
     padding: 20px;
-}
-.blog-title {
+  }
+  .blog-title {
     font-size: 34px;
-}
-.blog-text {
+  }
+  .blog-text {
     font-size: 17px;
-}
-.services-content {
+  }
+  .services-content {
     padding: 150px 70px 70px 70px;
-}
-.services-section {
-  justify-content: center;
-}
-.cta-title {
-  font-size: 35px;
-}
-.cta-subtitle {
-  font-size: 16px;
-}
-.footer-nav-address {
-  width: 245px;
-}
+  }
+  .services-section {
+    justify-content: center;
+  }
+ .swiper-slide .swiper-slide-activ .swiper-slide-next {
+    width: 500px;
+  }
+  .slide-text {
+    width: auto;
+  }
+  .slider-modules {
+    margin: 50px 80px 60px 40px;
+  }
+  .swiper-content {
+    padding: 50px;
+  }
+  .cta-title {
+    font-size: 35px;
+  }
+  .cta-subtitle {
+    font-size: 16px;
+  }
+  .footer-nav-address {
+    width: 245px;
+  }
 }
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -861,68 +873,73 @@ body {
   .hero-section {
     align-items: center;
     flex-direction: column;
-}
-.hero-text {
-  width: 450px;
-}
-.hero-content {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.blog-media {
-  flex-direction: column;
-  align-items: center;
-}
-.blog-img {
-  width: 50%;
-}
-.blog-content {
-  padding: 50px;
-}
-.services-content {
-  padding: 80px 0 70px 0;
-}
-.cta {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.cta-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.cta-propose{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.footer-nav {
-  display: flex;
-  flex-direction: column;
-}
-.footer-nav-address {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 265px;
-}
-.footer-number {
-  margin-bottom: 50px;
-}
-.footer-nav-links {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.footer-nav-social {
-  margin-bottom: 20px;
-}
-.footer-social {
-  margin-bottom: 15px;
-}
+  }
+  .hero-text {
+    width: 450px;
+  }
+  .hero-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .blog-media {
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog-img {
+    width: 50%;
+  }
+  .blog-content {
+    padding: 50px;
+  }
+  .services-content {
+    padding: 80px 0 70px 0;
+  }
+  .cta {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cta-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cta-propose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .swiper-content {
+    padding: 20px;
+  }
+  .slide-text {
+    width: auto;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-nav-address {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 265px;
+  }
+  .footer-number {
+    margin-bottom: 50px;
+  }
+  .footer-nav-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .footer-nav-social {
+    margin-bottom: 20px;
+  }
+  .footer-social {
+    margin-bottom: 15px;
+  }
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -1024,7 +1041,7 @@ body {
   }
   .slider-modules {
     margin: 50px 20px 40px 20px;
-}
+  }
   .testimonials-title {
     padding: 50px 20px;
   }
@@ -1036,17 +1053,16 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-.slide-text {
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.swiper-content img {
-  margin-right: 0;
-}
-
+  }
+  .slide-text {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .swiper-content img {
+    margin-right: 0;
+  }
   .cta {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1104,5 +1120,4 @@ body {
 }
 /* // XX-Small devices (portrait phones(iPhone5/5s/SE), equals to 320px) */
 @media (max-width: 320px) {
-  
 }
