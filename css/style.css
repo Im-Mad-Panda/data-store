@@ -220,7 +220,7 @@ body {
   margin-left: 20px;
 }
 
-.button.header-btn {
+.header-btn {
   display: flex;
   align-items: center;
   color: #212353;
