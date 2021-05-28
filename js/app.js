@@ -7,7 +7,6 @@ const testimonialsSlider = new Swiper('.testimonials-slider', {
       spaceBetween: 20,
     }
   },
-
   navigation: {
     nextEl: '.arrow-left',
     prevEl: '.arrow-right',
